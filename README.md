@@ -25,7 +25,7 @@ import (
 )
 
 func main() {
-	pwd := pasvorto.Generate(12, pasvorto.Letters, pasvorto.Digital)
+	pwd := pasvorto.Generate(12, pasvorto.Letter, pasvorto.Digital)
 	fmt.Println("value:", pwd.Value)
 	fmt.Println("score:", pwd.Score)
 }
